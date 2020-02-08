@@ -548,7 +548,7 @@
 							}
 							if (temp) {
 								this._armyBar.add(this.buttons.attack.unlock, {
-									top : 108,
+									top : 148,
 									right : 10
 								});
 							}
@@ -572,7 +572,7 @@
 							}
 							if (temp) {
 								this._armyBar.add(this.buttons.attack.repair, {
-									top : 23,
+									top : 63,
 									right : 10
 								});
 							}
@@ -2197,7 +2197,7 @@
 							});
 							if (this.options.rightSide.getValue()) {
 								this._armyBar.add(this.userInterface, {
-									top : 0,
+									top : 40,
 									right : 65
 								});
 							} else {
